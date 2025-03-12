@@ -1,13 +1,14 @@
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-class SafeInput {
+public class SafeInput {
 
-    /// Gets a non-zero-length string from the user.
-    /// @param pipe Scanner object to read input.
-    /// @param prompt Message to display as the prompt.
-    /// @return A string that is not empty.
-    ///
+    /**
+     * Gets a non-zero-length string from the user.
+     * @param pipe Scanner object to read input.
+     * @param prompt Message to display as the prompt.
+     * @return A string that is not empty.
+     */
     public static String getNonZeroLenString(Scanner pipe, String prompt) {
         String retString;
         do {
